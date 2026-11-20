@@ -1,0 +1,111 @@
+\documentclass[conference,a4paper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{csquotes}
+\usepackage{booktabs,tabularx,array,xurl}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,style=ieee,sorting=none,maxbibnames=3]{biblatex}
+\addbibresource{referencias.bib}
+\DefineBibliographyStrings{spanish}{bibliography={Referencias}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\renewcommand{\arraystretch}{1.18}
+\urlstyle{same}
+
+\title{Taller de entrevista estructurada y design thinking\\aplicados al PFC}
+\author{\IEEEauthorblockN{Cede\~no Avila Winston Damian\\
+Paca Pilataza Luis Alberto\\
+Rivera Suarez Jonathan Javier}
+\IEEEauthorblockA{Universidad T\'ecnica Estatal de Quevedo (UTEQ)\\
+Ingenier\'ia de Software, cuarto nivel --- ISR-401\\
+Actividad formativa GA-TL-02 - FORM}}
+
+\begin{document}
+\maketitle
+
+\section{Parte interesada y objetivo de la entrevista}
+
+\section{Guion de entrevista estructurada}
+\subsection{Apertura}
+Buenas tardes. Soy Jonathan Rivera, estudiante de Software de la UTEQ.
+Esta entrevista es para conocer cómo trabaja el personal de la tienda y
+durará unos 10 minutos. ¿Me autoriza a grabar la conversación en audio?
+\begin{enumerate}
+\item ¿Cuál es su función en la tienda?
+\item ¿Cuánto tiempo lleva trabajando aquí?
+\end{enumerate}
+
+\subsection{Bloque 1: atención al cliente}
+\begin{enumerate}\setcounter{enumi}{2}
+\item ¿Cómo actúa cuando entra un cliente a la tienda?
+\item Cuénteme cómo les explica a los clientes los diferentes tipos de productos.
+\item Describa la última vez que un cliente le pidió algo difícil de encontrar.
+\end{enumerate}
+
+\subsection{Bloque 2: stock, precios y registro}
+\begin{enumerate}\setcounter{enumi}{5}
+\item ¿Cómo sabe usted si hay el producto?
+\item ¿Quién decide el precio de los productos?
+\item ¿Dónde anota o registra las ventas?
+\item ¿Qué pasa si un cliente quiere devolver un producto que ya compró?
+\end{enumerate}
+
+\subsection{Bloque 3: recomendaciones y dificultades}
+\begin{enumerate}\setcounter{enumi}{9}
+\item ¿Qué hace cuando un cliente pide un producto que no tienen?
+\item ¿Cómo decide qué producto ofrecer cuando no hay el que piden?
+\item ¿Qué es lo que más le quita tiempo durante una venta?
+\item ¿Qué situaciones le complican su trabajo?
+\end{enumerate}
+
+\subsection{Cierre}
+\begin{enumerate}\setcounter{enumi}{13}
+\item Si pudiera cambiar una cosa de cómo se hacen las ventas aquí, ¿qué cambiaría?
+\item ¿Hay algo que no le hayamos preguntado y que quiera contarnos?
+\end{enumerate}
+
+\section{Ensayo de la entrevista}
+% Fecha, duracion, roles (parte interesada, entrevistador, registrador),
+% forma en que se obtuvo el consentimiento y referencia al manifiesto
+% evidencias/manifiesto.md. El audio NO se sube al repositorio.
+
+\section{Mapa de empatía}
+% \begin{figure}[!ht]
+% \centering
+% \includegraphics[width=\columnwidth]{figuras/mapa_empatia.png}
+% \caption{Mapa de empatía de la parte interesada}
+% \label{fig:empatia}
+% \end{figure}
+
+\section{Definición del problema}
+
+\section{Ajustes al guion}
+\begin{table}[!ht]
+\centering\scriptsize
+\caption{Preguntas defectuosas detectadas en el ensayo y su corrección}
+\label{tab:ajustes}
+\begin{tabularx}{\columnwidth}{@{}P{0.5cm}YP{1.2cm}Y@{}}
+\toprule
+N.\textordmasculine & Pregunta original & Defecto & Versión corregida\\\midrule
+ & & & \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section*{Uso de inteligencia artificial}
+Se utilizó Claude (Anthropic), modelo Claude Opus 5.5, el 20 de noviembre de 2026,
+solo para crear la estructura de carpetas, la plantilla vacía de este archivo, el
+\texttt{README.md}, la plantilla del manifiesto y para comprobar los datos de las
+referencias bibliográficas. También se usó para revisar la ortografía y la
+redacción de las preguntas del guion, propuestas por el equipo, y para pasarlas
+al formato \LaTeX{}. Las ideas de las preguntas, el ensayo, el mapa de empatía,
+la definición del problema y los ajustes son trabajo del equipo.
+% Completar: como verifico el equipo lo obtenido (p. ej., compilacion local,
+% revision de ISBN en el sitio de la editorial).
+
+\printbibliography
+\end{document}
