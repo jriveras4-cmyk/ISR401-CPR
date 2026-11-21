@@ -4,7 +4,7 @@ Los archivos originales (audio del ensayo y consentimiento) están en la carpeta
 
 | Archivo | Fecha | Duración | SHA-256 |
 |---|---|---|---|
-|  |  |  |  |
+| 2026-11-20_GA-TL-02_CPR_ensayo-vendedor.mp3 | 2026-11-20 | 00:05:00 | F6EB47499F4F0F5BE3C02F9495DEC784E27E138D6455529EDE7CE13BC2F414E5 |
 
 Cómo obtener la huella:
 
