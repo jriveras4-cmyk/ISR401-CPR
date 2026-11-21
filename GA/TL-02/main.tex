@@ -84,7 +84,8 @@ separada para grabar solo en audio. El archivo de audio
 \texttt{2026-11-20\_\allowbreak GA-TL-02\_\allowbreak CPR\_\allowbreak ensayo-vendedor.mp3}
 se conserva en la carpeta privada del Drive institucional y no se publica en el
 repositorio; sus datos, incluida la huella SHA-256, se registraron en
-\texttt{evidencias/\allowbreak manifiesto.md}.
+\texttt{evidencias/\allowbreak manifiesto.md}. Al inicio de la grabación, Luis
+Paca autorizó verbalmente que el ensayo se registrara en audio.
 
 \section{Mapa de empatía}
 El mapa se elaboró a partir de la grabación del ensayo, en el que un integrante del equipo representó al vendedor. Se observa que el vendedor se siente seguro al atender a los clientes, pero el registro manual le dificulta saber si un producto está disponible.
@@ -97,18 +98,21 @@ El mapa se elaboró a partir de la grabación del ensayo, en el que un integrant
 
 \section{Definición del problema}
 ¿Cómo podríamos ayudar al vendedor a saber si hay un producto disponible para que atienda a los clientes de forma más rápida y fluida?
+\par\noindent\begin{minipage}{\columnwidth}
 \section{Ajustes al guion}
-\begin{table}[!ht]
 \centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\makeatletter\def\@captype{table}\makeatother
 \caption{Preguntas defectuosas detectadas en el ensayo y su corrección}
 \label{tab:ajustes}
-\begin{tabularx}{\columnwidth}{@{}P{0.5cm}YP{1.2cm}Y@{}}
+\begin{tabularx}{\columnwidth}{@{}P{0.5cm}YYY@{}}
 \toprule
 N.\textordmasculine & Pregunta original & Defecto & Versión corregida\\\midrule
- & & & \\
+6 & ¿Cómo sabe usted si hay el producto? & La respuesta describió alternativas y dejó sin explicar cómo se verifica el stock. & Cuando un cliente le pide un producto, ¿cómo verifica si hay unidades disponibles? \\
+9 & ¿Qué pasa si un cliente quiere devolver un producto que ya compró? & La respuesta indicó que se haría la devolución, pero no explicó cómo se tramita. & Cuando un cliente solicita una devolución, ¿qué pasos sigue usted para tramitarla? \\
 \bottomrule
 \end{tabularx}
-\end{table}
+\end{minipage}\par\vspace{4pt}
 
 \section*{Uso de inteligencia artificial}
 Se utilizó Claude (Anthropic), modelo Claude Opus 5.5, el 20 de noviembre de 2026,
