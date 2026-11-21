@@ -1,0 +1,76 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{lmodern,microtype,geometry,tabularx,array}
+\usepackage[table]{xcolor}
+\usepackage[hidelinks]{hyperref}
+\geometry{left=1.9cm,right=1.9cm,top=1.48cm,bottom=1.42cm}
+\definecolor{verde}{HTML}{146B43}
+\definecolor{oro}{HTML}{C79D34}
+\definecolor{gris}{HTML}{4F5454}
+\definecolor{verdeclaro}{HTML}{EFF5F0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\apartado}[1]{\vspace{5pt}\noindent{\color{verde}\bfseries #1}\par\vspace{-1pt}\noindent{\color{oro}\rule{\linewidth}{0.55pt}}\vspace{-4pt}\par}
+\newcommand{\casilla}{\fbox{\rule{0pt}{6.8pt}\hspace{6.8pt}}}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+{\color{verde}\fontsize{12.8}{15.5}\selectfont\bfseries UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO (UTEQ)}\par
+{\fontsize{8.6}{10.5}\selectfont FACULTAD DE CIENCIAS DE LA COMPUTACIÓN $\cdot$ CARRERA DE INGENIERÍA DE SOFTWARE}\par
+\vspace{5pt}
+{\color{verde}\fontsize{14}{17}\selectfont\bfseries FORMULARIO DE CONSENTIMIENTO INFORMADO}\par
+{\fontsize{9.0}{11}\selectfont Participación voluntaria en el ensayo de entrevista de GA-TL-02}\par
+\vspace{8pt}
+{\color{oro}\rule{\linewidth}{1pt}}
+\end{center}
+\vspace{-2pt}
+\footnotesize
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{3.65cm}Y@{}}
+Código y versión & GA-TL-02-CPR-CI-01 $\cdot$ Versión 1.0 (20/11/2026)\\
+Asignatura & Ingeniería de Requerimientos (ISR-401) $\cdot$ 4.º nivel «B» $\cdot$ SPA 2026--2027\\
+Proyecto de referencia & Plataforma de ventas con módulo de recomendación basado en IA para establecimientos eléctricos\\
+Equipo CPR & Cedeño Avila Winston Damian; Paca Pilataza Luis Alberto; Rivera Suarez Jonathan Javier\\
+Participante & Código: \rule{2.1cm}{0.35pt} \hspace{6pt} Rol simulado: \rule{4.0cm}{0.35pt}\\
+\end{tabularx}
+\normalsize
+\vspace{4pt}
+\small
+Se invita a participar en un \textbf{ensayo académico de entrevista} entre estudiantes. Antes de decidir, puede formular preguntas sobre esta actividad. Este documento es un formulario \textbf{en blanco}: las copias firmadas se resguardan de forma privada.
+
+\apartado{1. Finalidad y procedimiento}
+El equipo CPR practicará un guion de preguntas sobre la atención al cliente, la disponibilidad de productos, el registro de ventas y las recomendaciones en establecimientos eléctricos. Un estudiante representará al personal de ventas, otro entrevistará y un tercero registrará observaciones. El ejercicio durará \textbf{aproximadamente 10 minutos}; sirve para mejorar el instrumento antes del trabajo de campo real y \textbf{no constituye una entrevista con el cliente del PFC}.
+
+\apartado{2. Participación voluntaria y derecho a retirarse}
+Participar es voluntario. Puede omitir preguntas, solicitar una pausa o retirarse en cualquier momento sin necesidad de explicar sus motivos. No se solicita información de clientes reales, claves, datos bancarios ni documentos privados. La participación no tiene remuneración.
+
+\apartado{3. Confidencialidad y grabación de audio}
+El equipo usará las notas solo para revisar el guion y preparar el mapa de empatía del taller. La grabación será \textbf{exclusivamente de audio} y solo se realizará con autorización específica. El audio y el consentimiento firmado se conservarán en un espacio institucional privado, accesible al equipo responsable y al docente; \textbf{no se publicarán en GitHub}. En el repositorio público figurará únicamente un manifiesto con fecha, duración, nombre del archivo y huella SHA-256, sin datos personales. La persona participante podrá pedir que se detenga la grabación y solicitar la supresión de material identificable que continúe bajo control del equipo.
+
+\apartado{4. Autorizaciones y constancia}
+Declaro que se me explicó la finalidad del ensayo, el uso de las notas y del audio, y mi derecho a no participar o retirarme. Marque una opción por fila. La participación y la grabación se autorizan por separado.
+
+\vspace{3pt}
+\renewcommand{\arraystretch}{1.42}
+\begin{tabularx}{\linewidth}{|Y|>{\centering\arraybackslash}p{1.15cm}|>{\centering\arraybackslash}p{1.15cm}|}
+\hline
+\rowcolor{verde}\color{white}\bfseries Autorización & \color{white}\bfseries Sí & \color{white}\bfseries No\\\hline
+Acepto participar voluntariamente en el ensayo de entrevista. & \casilla & \casilla\\\hline
+Autorizo la grabación \textbf{solo en audio} durante el ensayo. & \casilla & \casilla\\\hline
+\end{tabularx}
+
+\vspace{15pt}
+\begin{tabularx}{\linewidth}{@{}Y Y@{}}
+\rule{0.90\linewidth}{0.45pt} & \rule{0.90\linewidth}{0.45pt}\\[-2pt]
+\footnotesize Firma del participante (copia privada) & \footnotesize Firma del estudiante que solicita el consentimiento\\[12pt]
+\rule{0.90\linewidth}{0.45pt} & \rule{0.90\linewidth}{0.45pt}\\[-2pt]
+\footnotesize Lugar y fecha & \footnotesize Nombre de quien aplica el instrumento\\
+\end{tabularx}
+
+\vfill
+{\color{oro}\rule{\linewidth}{0.55pt}}\par
+{\color{gris}\footnotesize ISR-401 $\cdot$ Consentimiento informado $\cdot$ Equipo CPR \hfill Página 1 de 1}
+\end{document}
