@@ -12,7 +12,7 @@
 
 ## Documentos
 
-- `main.tex`: guion y documento principal de la actividad (en desarrollo).
+- `main.tex`: guion y documento principal de la actividad .
 - `referencias.bib`: referencias para el informe principal, en formato IEEE.
 - `consentimiento_informado.tex`: fuente LaTeX del protocolo de consentimiento, de una carilla.
 - `consentimiento_informado.pdf`: formulario **en blanco** de una página A4, compilado desde LaTeX.
@@ -36,7 +36,6 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-**El archivo `main.pdf` todavía no figura en el repositorio y debe compilarse y revisarse cuando se completen las secciones faltantes.**
 
 ## Compilación independiente del consentimiento
 
